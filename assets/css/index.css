@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    max-width: 100%;
+}
+
+.header {
+    height: 120px;
+    color: #fff;
+    font-size: 35px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 330px 150px 150px 70px;
+    background-image: url(../imgs/seyed-sina-fazeli-XP9JF6jyRGc-unsplash.jpg);
+}
+
+.header h1,
+.header p {
+    width: 50%;
+    margin: 10px 0;
+}
+
+.products {
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+}
+
+table {
+    width: 100%;
+}
+
+table tr td {
+    width: 50%;
+}
+
+.images {
+    text-align: center;
+}
+
+.prices {
+    text-align: left;
+}
+
+table tr td img {
+    width: 400px;
+    max-height: 266px;
+    justify-content: center;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    background: rgb(21, 45, 86);
+}
+
+.footer p {
+    margin: 0;
+    padding: 20px;
+}
